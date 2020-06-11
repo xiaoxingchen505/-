@@ -1,45 +1,12 @@
 
-# 单向链表
-
-单向链表也叫单链表，是链表中最简单的一种形式，它的每个节点包含两个域，一个信息域，和一个链接域。这个链接指向链表中的下一个节点，而最后一个节点的链接域则指向另一个空值。
-
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sll.png)
-
-1. 表元素域elem用来存放具体的数据
-2. 链接域next用来存放下一个节点的位置(python中的标识)
-3. 变量p指向链接的头节点（首节点）的位置，从p触发能找到表中的任意节点。
-
-
-
-## 节点的实现
-<pre>
-    <code>
-
 class Node(object):
 
 
     def __init__(self, elem):
         self.elem = elem
         self.next = None
-    </code>
-</pre>
 
-## 单链表的操作
-
-* is_empty()链表是否为空
-* length() 链表长度
-* travel() 遍历整个链表
-* add(item) 链表头部添加元素
-* append(item) 链表尾部添加元素
-* insert(pos, item) 指定位置添加元素
-* remove(item) 删除元素
-* search(item) 查找节点是否存在
-
-## 单链表的实现 
-
-<pre>
-    <code>
-    class SingleLinkList(object):
+class SingleLinkList(object):
 
 
     """定义一个单链表"""
@@ -138,8 +105,6 @@ class Node(object):
 single_obj = SingleLinkList()
 
 if __name__ == "__main__":
-
-    # 测试
     ll = SingleLinkList()
     print(ll.is_empty())
     print(ll.length())
@@ -162,15 +127,4 @@ if __name__ == "__main__":
     ll.remove(5)
     ll.remove(1)
     ll.travel()
-    </code>
-</pre>
 
-## 链表与顺序表的对比
-
-链表是去了顺序随机读取的优点，同时链表犹豫增加了节点的指针域，空间开销比较大，但对存储空间使用要相对灵活。
-
-链表与顺序表的各种操作复杂度如下图所示：
-
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sll1.png)
-
-注意虽然表面看起来复杂度都是 O(n)，但是链表和顺序表在插入和删除时进行的完全不同的操作。链表的主要耗时操作是遍历查找，删除和插入操作本身的复杂度是O(1)。顺序表查找很快，主要耗时的操作是拷贝覆盖。因为除了目标元素在尾部的特殊情况，顺序表进行插入和删除时需要对操作点之后的所有元素进行前后移位操作，只能通过拷贝和覆盖的方法进行。

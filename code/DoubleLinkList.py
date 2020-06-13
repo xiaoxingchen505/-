@@ -1,27 +1,5 @@
 
-#双向链表
 
-一种更复杂的链表是“双向链表”。每个节点有两个链接，一个指向前一个节点，当次节点为第一个节点是，指向空值 None；而另外一个指向下一个节点，当此节点为最后一个节点时，指向空值 None。
-
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/dll.png)
-
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/dll2.png)
-
-## 双链表的操作
-
-* is_empty()链表是否为空
-* length() 链表长度
-* travel() 遍历整个链表
-* add(item) 链表头部添加元素
-* append(item) 链表尾部添加元素
-* insert(pos, item) 指定位置添加元素
-* remove(item) 删除元素
-* search(item) 查找节点是否存在
-
-## 双链表的实现
-
-<pre>
-<code>
 class Node(object):
     
     def __init__(self, elem):
@@ -171,5 +149,3 @@ if __name__ == "__main__":
     ll.remove(5)
     ll.remove(1)
     ll.travel()
-</code>
-</pre>

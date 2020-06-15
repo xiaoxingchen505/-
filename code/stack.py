@@ -1,24 +1,8 @@
-# 栈 stack
-
-栈stack, 有些地方称为堆栈，是一种容器，可存入数据元素，访问元素，删除元素，它的特点在于只能允许在容器的一端 (称之为顶端指标，英语:top) 进行加入数据 (push) 和输出数据 (pop) 的运算。没有了位置概念，保证任何时候可以访问，删除的元素都是此前最后存入的那个元素，确定了一种默认的访问顺序。
-
-由于栈数据结构只允许在一端进行操作，因而按照后进先出(LIFO, Last In First Out)的原理运作
 
 
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/stack.png)
 
+# coding:utf-8
 
-# 栈的操作
-
-* stack()创建一个新的空栈
-* push(item) 添加一个新的元素item到栈顶
-* pop() 弹出栈顶元素
-* peek() 返回栈顶元素
-* is_empty() 判断栈是否为空
-* size() 返回栈的元素个数
-
-<pre>
-<code>
 class Stack(object):
 #创建一个新的空栈
 
@@ -68,6 +52,3 @@ if __name__ == '__main__':
     print(s.pop())
     print(s.pop())
     print(s.pop())
-
-</code>
-</pre>

@@ -1,9 +1,9 @@
 # This is the notes I taken while reviewing Data Structure and algorithm.
-
-### 内容来源于B站UP主 研学游
 Created by Xingchen Xiao
 
-## 目录
+### 内容来源于B站UP主 研学游
+
+# 目录
 
 ### 数据基础
 *   [算法的引入](scripts/01.算法的引入.md) </br>

@@ -1,16 +1,7 @@
-# -
-
 # This is the notes I taken while reviewing Data Structure and algorithm.
 
-
 ### 内容来源于B站UP主 研学游
-
-## Created by Xingchen Xiao
-
-
-## 常见排序算法效率比较
-
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sort.png)
+Created by Xingchen Xiao
 
 ## 目录
 
@@ -32,3 +23,8 @@
 [16.希尔排序](scripts/16.希尔排序.md) </br>
 [17.归并排序](scripts/17.归并排序.md) </br>
 [18.二分查找](scripts/18.二分查找.md) </br>
+
+
+## 常见排序算法效率比较
+
+![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sort.png)

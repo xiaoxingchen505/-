@@ -10,4 +10,4 @@
 
 ## 常见排序算法效率比较
 
-![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sort.jpg)
+![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sort.png)

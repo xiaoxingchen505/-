@@ -12,6 +12,8 @@
 
 ![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sort.png)
 
+## 目录
+
 [1.算法的引入](01.算法的引入.md) </br>
 [2.数据结构的引入](02.数据结构的引入.md) </br>
 [3.基本顺序表与元素外围顺序表](03.基本顺序表与元素外围顺序表.md) </br>

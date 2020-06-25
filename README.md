@@ -32,6 +32,13 @@ Created by Xingchen Xiao
 *   [二分查找](scripts/18.二分查找.md) </br>
 
 
+### 树结构
+*   [树与树算法](scripts/19.树与树算法.md) </br>
+*   [二叉树](scripts/20.二叉树.md) </br>
+*   [二叉树的遍历](scripts/21.二叉树的遍历.md) </br>
+
+
+
 ## 常见排序算法效率比较
 
 ![image](https://github.com/xiaoxingchen505/DataStructure-Algorithm-Notes/blob/master/images/sort.png)
